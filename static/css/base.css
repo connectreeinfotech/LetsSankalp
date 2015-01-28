@@ -1,0 +1,27 @@
+.navbar
+{
+	background: #fff;
+}
+.navbar-brand
+{
+    padding-left: 7vw;
+    padding-right: 7vw;
+}
+.green-btn
+{
+	background: #55e48f;
+}
+.green-btn:hover
+{
+	background: #2bde73;	
+}
+.border-less 
+{
+	border: none;
+	box-shadow: none;
+	border-color: transparent;
+}
+.carousel-inner > .item > img 
+{
+	padding:5vw 10vw 0 10vw;
+}
