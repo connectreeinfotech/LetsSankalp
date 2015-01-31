@@ -41,3 +41,7 @@ footer > div > p
 	border-width: 1px;
 	border-color:#D8D8D8; 
 }
+#category a
+{
+	color: #000
+}
