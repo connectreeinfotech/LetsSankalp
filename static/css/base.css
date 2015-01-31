@@ -25,3 +25,13 @@
 {
 	padding:10vw;
 }
+footer
+{
+	border-top-style:solid;
+	border-width:1px;
+	border-color:#D8D8D8;
+}
+footer > div > p
+{
+	padding-top:1vw;
+}
