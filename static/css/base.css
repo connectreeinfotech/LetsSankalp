@@ -35,3 +35,9 @@ footer > div > p
 {
 	padding-top:1vw;
 }
+#category
+{
+	border-left: solid;
+	border-width: 1px;
+	border-color:#D8D8D8; 
+}
