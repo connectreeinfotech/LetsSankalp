@@ -28,7 +28,7 @@
 	        <span class="icon-bar"></span>
 	        <span class="icon-bar"></span>
 	      </button>
-	      <a class="navbar-brand" href="#">LetsSankalp</a>
+	      <a class="navbar-brand" href="#"><strong>LetsSankalp</strong></a>
 	    </div>
 
 	    <!-- Collect the nav links, forms, and other content for toggling -->
@@ -39,11 +39,11 @@
 	      </ul>
 	      <ul class="nav navbar-nav navbar-right">
 	      	<form class="navbar-form navbar-left" role="search">
-		        <span class="glyphicon glyphicon-search" aria-hidden="true"></span>
 		        <div class="form-group border-less">
+		        	<span class="glyphicon glyphicon-search" aria-hidden="true"></span>
 		          <input type="text" class="form-control border-less" placeholder="Search">
+		          	<button type="submit" class="btn btn-default green-btn">Submit</button>
 		        </div>
-		    	<button type="submit" class="btn btn-default green-btn">Submit</button>
 		    </form>
 	        <li><a href="#">Sign Up</a></li>
 	        <li><a href="#">Login</a></li>
@@ -56,6 +56,11 @@
 	
 	{% endblock %}
 
+	<footer class="footer" style="border-top-style:solid;border-width:1px;border-color:#D8D8D8">
+      <div class="container-fluid">
+        <p class="text-center" style="padding-top:1vw;">Copyright © ConnecTree InfoTech 2015</p>
+      </div>
+    </footer>
     <!-- jQuery (necessary for Bootstrap's JavaScript plugins) -->
     <script src="{{ STATIC_URL }}js/jquery.min.js"></script>
     <!-- Include all compiled plugins (below), or include individual files as needed -->
