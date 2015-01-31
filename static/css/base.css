@@ -1,11 +1,16 @@
 .navbar
 {
-	background: #fff;
+	background-color: #2C3E50;
+	color: #fff !important;
 }
 .navbar-brand
 {
     padding-left: 7vw;
     padding-right: 7vw;
+}
+.navbar a
+{
+	color: #fff !important;
 }
 .green-btn
 {
@@ -27,13 +32,19 @@
 }
 footer
 {
-	border-top-style:solid;
-	border-width:1px;
-	border-color:#D8D8D8;
+	color: #fff;
 }
-footer > div > p
+footer .footer-above
 {
-	padding-top:1vw;
+	background-color: #2C3E50;
+}
+footer .footer-below
+{
+	background-color: #233140;
+}
+footer > div > div > p
+{
+	padding-top:1vw;;
 }
 #category
 {
@@ -44,4 +55,8 @@ footer > div > p
 #category a
 {
 	color: #000
+}
+#popular
+{
+	padding-top:2vw;
 }
