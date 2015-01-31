@@ -2,6 +2,8 @@
 {
 	background-color: #2C3E50;
 	color: #fff !important;
+	border: none !important;
+	border-width:0px !important;
 }
 .navbar-brand
 {
